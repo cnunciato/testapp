@@ -5,7 +5,6 @@ pkg_maintainer="Christian Nunciato <chris@nunciato.org>"
 pkg_license=("MIT")
 
 do_install() {
-  build_line "SOME_KEY: $SOME_KEY"
   return 0
 }
 
